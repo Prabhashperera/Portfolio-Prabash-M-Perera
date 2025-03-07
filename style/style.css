@@ -11,6 +11,18 @@
   width: 100dvw;
   height: 100dvh;
 }
+.black {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+  background: url("../Assets/videos/bg-video.mp4");
+  height: 100vh;
+  opacity: 15%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .center-nav {
   display: flex;
@@ -47,7 +59,7 @@
   height: max-content;
   font-size: 19px;
   position: absolute;
-  right: 25%;
+  right: 35%;
   top: 0;
   bottom: 0;
   margin: auto 0;
@@ -71,3 +83,106 @@
   top: 0;
   margin: 0 auto;
 }
+
+
+
+/* Large devices such as laptops (1024px and down) */
+@media only screen and (max-width: 1024px) {
+  .navigation-wrapper {
+    height: 50px;
+  }
+  .navigation-list {
+    font-size: 15px;
+    gap: 35px;
+    right: 70px;
+  }
+}
+
+/* Medium devices such as tablets (768px and down) */
+@media only screen and (max-width: 768px) {
+  .navigation-list {
+    font-size: 14px;
+    gap: 25px;
+    right: 40px;
+  }
+}
+
+/* Small devices such as large phones (640px and down) */
+@media only screen and (max-width: 640px) {
+  .navigation-list {
+    display: none;
+  }
+}
+
+/* Extra large devices (desktops) */
+@media only screen and (min-width: 1025px) {
+  .hero-section-wrapper {
+    width: 100vw;
+  }
+}
+
+
+/* Hero Text Section */
+
+.hero-text-grp {
+  z-index: 50;
+  width: fit-content;
+  height: fit-content;
+  color: white;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  margin: auto;
+  text-align: center;
+}
+
+.hero-text-grp h1 {
+  position: relative;
+  top: 40px;
+  font-size: 70px;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hero-text-grp h3 {
+  font-size: 35px;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.hero-text-grp h3 span {
+  color: #838FFF;
+}
+
+.hero-text-grp p {
+  position: relative;
+  bottom: 10px;
+}
+
+.btn-grp-01 button {
+  margin: 20px 10px;
+  border: none;
+  padding: 10px;
+  width: 120px;
+  border-radius: 9px;
+  font-weight: bold;
+
+}
+
+.btn-grp-01 button:first-child {
+  background-color:#013A63;
+  border: 2px solid #013A63;
+
+  color: white;
+  font-weight: bold;
+}
+
+.btn-grp-01 button:nth-child(2) {
+  background-color: transparent;
+  border: 2px solid #FFB703;
+  color: white;
+}
+
