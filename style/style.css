@@ -207,6 +207,5 @@ body {
   width: 100dvw;
   height: 100dvh;
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
