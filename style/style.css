@@ -146,7 +146,7 @@ body {
 
 .hero-text-grp h1 {
   position: relative;
-  top: 40px;
+  top: 50px;
   font-size: 70px;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
@@ -160,16 +160,22 @@ body {
 
 .hero-text-grp h3 span {
   color: #838FFF;
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .hero-text-grp p {
   position: relative;
-  bottom: -15px;
+  bottom: -10px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn-grp-01 {
   position: relative;
-  top: 30px;
+  top: 10px;
 }
 
 .btn-grp-01 button {
