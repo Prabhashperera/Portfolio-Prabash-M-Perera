@@ -5,6 +5,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
 /* Hero Section */
 .hero-section-wrapper {
   background-color: black;
@@ -14,12 +19,14 @@
 .black {
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   position: absolute;
   z-index: 1;
-  opacity: 30%;
-  height: 100%;
-  background-repeat: repeat;
-  background-size: contain;
+  opacity: 20%;
+  background-size: cover;
+  height: 100vh;
 }
 
 
@@ -189,4 +196,11 @@
 }
 
 /* Who Am I Section */
+
+.about-me-section {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
