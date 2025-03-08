@@ -154,11 +154,12 @@ body {
 }
 
 .hero-text-grp h3 {
-  font-size: 35px;
+  font-size: 40px;
   position: relative;
 }
 
-.hero-text-grp h3 span {
+.hero-text-grp span {
+  font-size: inherit;
   color: #838FFF;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
@@ -238,6 +239,13 @@ body {
   transition: 0.5s;
   transform: rotate(5deg);
   width: 430px;
+}
+
+.about-me-section video {
+  position: absolute;
+  opacity: 10%;
+  top: -200px;
+  z-index: -1;
 }
 
 .middle-color {
