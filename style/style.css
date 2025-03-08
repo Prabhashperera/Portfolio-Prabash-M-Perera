@@ -144,6 +144,40 @@ body {
   text-align: center;
 }
 
+.para-1:hover , .para-2:hover , .para-3:hover {
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.para-1, .para-2, .para-3 {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.para-1:hover, 
+.para-2:hover, 
+.para-3:hover {
+  z-index: 10;
+  transform: scale(1.1);
+}
+
+.hero-text-grp::after {
+  --2 : red;
+  --1 : blue;
+  --3 : purple;
+  --4:blue;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(var(--1) , var(--2) , var(--3) , var(--4));
+  filter: blur(3.5rem);
+  opacity: 12%;
+}
+
 .hero-text-grp h1 {
   position: relative;
   top: 50px;
@@ -233,9 +267,31 @@ body {
   font-size: 50px;
 }
 
-.about-me-section aside:first-child p {
+.about-me-section aside:first-child .para-1 {
   position: absolute;
   top: 100px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+.about-me-section aside:first-child .para-2 {
+  position: absolute;
+  top: 210px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+.about-me-section aside:first-child .para-3 {
+  position: absolute;
+  top: 320px;
   font-family: "Alef", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -264,8 +320,18 @@ body {
 
 .about-me-section video {
   position: absolute;
-  opacity: 10%;
+  opacity: 8%;
   top: -200px;
+  z-index: -1;
+}
+.about-me-section aside:first-child p::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #4254fc;
+  inset: 0;
+  margin: auto;
   z-index: -1;
 }
 
