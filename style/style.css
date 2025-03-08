@@ -204,8 +204,43 @@ body {
 /* Who Am I Section */
 
 .about-me-section {
+  position: relative;
+  top: 100px;
   width: 100dvw;
   height: 100dvh;
   display: grid;
+  grid-template-columns: 60% 2fr 1fr;
+}
+
+.about-me-section aside:first-child {
+  position: relative;
+  top: -30px;
+  padding: 100px;
+  text-align: center;
+}
+
+.about-me-section aside:first-child h2 , span {
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.about-me-section aside:first-child p {
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.about-me-section aside:nth-child(2) img:hover {
+  transition: 0.5s;
+  transform: rotate(5deg);
+  width: 430px;
+}
+
+.middle-color {
+  color: #838FFF;
 }
 
