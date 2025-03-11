@@ -5,6 +5,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
 /* Hero Section */
 .hero-section-wrapper {
   background-color: black;
@@ -14,13 +19,14 @@
 .black {
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
   position: absolute;
   z-index: 1;
-  background: url("../Assets/videos/bg-video.mp4");
-  height: 100vh;
-  opacity: 15%;
-  background-repeat: no-repeat;
+  opacity: 20%;
   background-size: cover;
+  height: 100vh;
 }
 
 
@@ -57,7 +63,7 @@
 
 .navigation-list {
   height: max-content;
-  font-size: 19px;
+  font-size: 17px;
   position: absolute;
   right: 35%;
   top: 0;
@@ -69,6 +75,9 @@
 }
 
 .navigation-list li a {
+  font-family: "Alatsi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: black;
   text-decoration: none;
 }
@@ -138,9 +147,43 @@
   text-align: center;
 }
 
+.para-1:hover , .para-2:hover , .para-3:hover {
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.para-1, .para-2, .para-3 {
+  position: relative;
+  transition: transform 0.5s ease-in-out;
+}
+
+.para-1:hover, 
+.para-2:hover, 
+.para-3:hover {
+  z-index: 10;
+  transform: scale(1.1);
+}
+
+.hero-text-grp::after {
+  --2 : red;
+  --1 : blue;
+  --3 : purple;
+  --4:blue;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: conic-gradient(var(--1) , var(--2) , var(--3) , var(--4));
+  filter: blur(3.5rem);
+  opacity: 12%;
+}
+
 .hero-text-grp h1 {
   position: relative;
-  top: 40px;
+  top: 50px;
   font-size: 70px;
     font-family: "Inknut Antiqua", serif;
     font-weight: 600;
@@ -148,18 +191,34 @@
 }
 
 .hero-text-grp h3 {
-  font-size: 35px;
-  margin-bottom: 30px;
+  font-size: 40px;
   position: relative;
 }
 
-.hero-text-grp h3 span {
+.hero-text-grp span {
+  font-size: inherit;
   color: #838FFF;
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.middle-color {
+  color: #838FFF;
+
 }
 
 .hero-text-grp p {
   position: relative;
-  bottom: 10px;
+  bottom: -10px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-grp-01 {
+  position: relative;
+  top: 10px;
 }
 
 .btn-grp-01 button {
@@ -169,12 +228,11 @@
   width: 120px;
   border-radius: 9px;
   font-weight: bold;
-
 }
 
 .btn-grp-01 button:first-child {
-  background-color:#013A63;
-  border: 2px solid #013A63;
+  background-color:#4254fc;
+  border: 2px solid #4254fc;
 
   color: white;
   font-weight: bold;
@@ -185,4 +243,195 @@
   border: 2px solid #FFB703;
   color: white;
 }
+
+/* Who Am I Section */
+
+.about-me-section {
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.about-me-section aside:first-child {
+  height: fit-content;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  width: 70%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.about-me-section aside:first-child h2 , span {
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.about-me-section aside:first-child .para-1 {
+  position: absolute;
+  top: 100px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+.about-me-section aside:first-child .para-2 {
+  position: absolute;
+  top: 210px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+.about-me-section aside:first-child .para-3 {
+  position: absolute;
+  top: 320px;
+  font-family: "Alef", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 10px 50px;
+}
+
+
+.about-me-section aside:nth-child(2) img {
+  position: absolute;
+  inset: 10px 0 0 0;
+  margin: auto;
+  filter: grayscale(100%);
+  transition: width 0.5s ease-in-out, opacity 0.5s ease-in-out, filter 0.5s ease-in-out;
+}
+
+.about-me-section aside:nth-child(2) img:hover {
+  transition: 0.5s;
+  width: 430px;
+  opacity: 60%;
+  filter: grayscale(0);
+}
+
+.about-me-section video {
+  position: absolute;
+  opacity: 8%;
+  top: -200px;
+  z-index: -1;
+}
+.about-me-section aside:first-child p::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #4254fc;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+}
+
+/* First Quote Section */
+.quote p {
+  text-align: center;
+  cursor: pointer;
+  /* box-shadow: 1px 5px 1px white; */
+  text-shadow: 1px 1px 10px #4254fc;
+}
+
+.skill-section-wrapper {
+  width: 100vw;
+  height: 100dvh;
+}
+
+.card-grp {
+  display: flex;
+  position: relative;
+  top: 100px;
+  margin-bottom: 160px; 
+  gap: 30px;
+  justify-content: center;
+
+}
+
+.card {
+  position: relative;
+  text-align: center;
+  justify-items: center;
+  width: 30%;
+  background-color: white;
+  padding: 40px;
+  color: black;
+  border-radius: 30px;
+  cursor: pointer;
+  position: relative;
+  /* transition: transform 0.5s ease-in-out; */
+}
+
+.card:hover::before , .card:hover::after {
+  background-image: none; 
+  /* Bug */
+}
+
+.card:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.05);
+}
+
+.card .card-title  {
+  font-size: larger;
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.card .card-desc {
+  font-family: "Alef" ,sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.card::after , .card::before {
+  content: "";
+  position: absolute;
+  background-image: conic-gradient(blue , red , rgb(255, 45, 188) , rgb(147, 0, 147) ,yellow , blue);
+  /* background-image: conic-gradient(from var(--angle), 50% , rgb(32, 81, 255)); */
+  width: 100%;
+  height: 100%;
+  /* inset: 0;
+  margin: auto; */
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  padding: 3px;
+  z-index: -1;
+  border-radius: 30px;
+  animation: 3s spin linear infinite;
+}
+
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 50%;
+}
+
+/* Technology Stack */
+.stack-grp {
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+}
+
+.stack-grp img {
+  width: 60px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 100px;
+}
+
 
