@@ -428,10 +428,20 @@ body {
 }
 
 .stack-grp img {
+  cursor: pointer;
+  position: relative;
+  top: 40px;
   width: 60px;
   background-color: white;
   padding: 10px;
-  border-radius: 100px;
+  border-radius: 10px;
 }
 
+.stack-grp img:hover {
+  transition:0.5s;
+  transform: scale(1.05);
+  box-shadow: 1px 1px 50px blue;
+  /* filter: grayscale(80%); */
+  filter: brightness(150%);
+}
 
