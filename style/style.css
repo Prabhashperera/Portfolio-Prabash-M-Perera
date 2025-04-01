@@ -319,12 +319,6 @@ span {
   filter: grayscale(0);
 }
 
-.about-me-section video {
-  position: absolute;
-  opacity: 8%;
-  top: -200px;
-  z-index: -1;
-}
 .about-me-section aside:first-child p::after {
   position: absolute;
   content: "";
