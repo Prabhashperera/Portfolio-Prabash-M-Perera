@@ -277,7 +277,7 @@ body {
 }
 
 .skill-section-wrapper {
-  width: 100vw;
+  width: 100dvw;
   height: 100dvh;
 }
 
@@ -369,7 +369,6 @@ body {
 
 .stack-grp img {
   cursor: pointer;
-  position: relative;
   top: 40px;
   width: 60px;
   background-color: white;

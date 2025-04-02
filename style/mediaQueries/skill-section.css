@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .quote p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .quote {
+    margin-top: -400px;
+  }
+
+  .skill-section-wrapper .card-title {
+    font-size: 20px;
+  }
+  .skill-section-wrapper .card-desc {
+    font-size: 13px;
+  }
+
+  .skill-section-wrapper .card {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quote p {
+    font-size: 16px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .quote {
+    margin-top: -300px;
+  }
+
+  .skill-section-wrapper .card-grp {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center; /* Centers both horizontally and vertically */
+  }
+
+  .skill-section-wrapper .card-title {
+    font-size: 20px;
+  }
+  .skill-section-wrapper .card-desc {
+    font-size: 13px;
+  }
+
+  .skill-section-wrapper .card {
+    width: 70%;
+  }
+}
