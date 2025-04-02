@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .para-1,
+  .para-2,
+  .para-3 {
+    font-size: 13px;
+  }
+  .para-pic img {
+    width: 350px;
+  }
+  .para-pic {
+    inset: -30% 0 0 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
