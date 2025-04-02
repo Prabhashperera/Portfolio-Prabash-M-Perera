@@ -18,6 +18,16 @@
   .skill-section-wrapper .card {
     width: 40%;
   }
+  .stack-grp img {
+    width: 55px;
+  }
+  .stack-grp {
+    gap: 30px;
+  }
+  .stack-grp-wrapper {
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -48,5 +58,15 @@
 
   .skill-section-wrapper .card {
     width: 70%;
+  }
+  .stack-grp img {
+    width: 40px;
+  }
+  .stack-grp {
+    gap: 15px;
+  }
+  .stack-grp-wrapper {
+    max-width: 80%;
+    margin: auto;
   }
 }

@@ -384,8 +384,9 @@ body {
   filter: brightness(150%);
 }
 
-.t-100 {
-  margin-top: -100px;
+.design-quote {
+  text-align: center;
+  margin-top: -150px;
 }
 
 .project-section-wrapper {
