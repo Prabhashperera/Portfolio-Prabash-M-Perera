@@ -92,41 +92,6 @@ body {
   margin: 0 auto;
 }
 
-/* Large devices such as laptops (1024px and down) */
-@media only screen and (max-width: 1024px) {
-  .navigation-wrapper {
-    height: 50px;
-  }
-  .navigation-list {
-    font-size: 15px;
-    gap: 35px;
-    right: 70px;
-  }
-}
-
-/* Medium devices such as tablets (768px and down) */
-@media only screen and (max-width: 768px) {
-  .navigation-list {
-    font-size: 14px;
-    gap: 25px;
-    right: 40px;
-  }
-}
-
-/* Small devices such as large phones (640px and down) */
-@media only screen and (max-width: 640px) {
-  .navigation-list {
-    display: none;
-  }
-}
-
-/* Extra large devices (desktops) */
-@media only screen and (min-width: 1025px) {
-  .hero-section-wrapper {
-    width: 100vw;
-  }
-}
-
 /* Hero Text Section */
 
 .hero-text-grp {

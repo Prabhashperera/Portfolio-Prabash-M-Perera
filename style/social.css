@@ -1,0 +1,12 @@
+.gallery-header-wrapper h2 {
+  font-size: 40px;
+}
+
+.gallery-header-wrapper h2 span {
+  font-size: 40px;
+}
+
+.gallery-header-wrapper {
+  text-align: center;
+  margin-bottom: 50px;
+}
