@@ -28,6 +28,12 @@
     max-width: 85%;
     margin: auto;
   }
+  .design-quote {
+    font-size: 16px;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: -300px;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -68,5 +74,11 @@
   .stack-grp-wrapper {
     max-width: 80%;
     margin: auto;
+  }
+  .design-quote {
+    font-size: 14px;
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: -100px;
   }
 }
