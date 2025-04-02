@@ -12,6 +12,21 @@
 /* 2. Small Devices (Large Phones) */
 @media screen and (min-width: 481px) and (max-width: 767px) {
   .navigation-wrapper {
-    width: 50%;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for small phones */
+  .navigation-wrapper {
+    width: 90%;
+    height: 40px;
+  }
+  .navigation-list {
+    font-size: 12px;
+  }
+  .navigation-profile-img {
+    width: 32px;
+    height: 32px;
   }
 }
