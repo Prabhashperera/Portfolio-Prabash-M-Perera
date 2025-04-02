@@ -1,0 +1,52 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .project-section-header .title,
+  span {
+    font-size: 40px;
+  }
+  .project-section-header .title span {
+    font-size: 40px;
+  }
+  .project-section-header p {
+    font-size: medium;
+    max-width: 80%;
+    margin: auto;
+  }
+  /* Box Define */
+  .flex-items {
+    width: 80%;
+    height: 400px;
+    overflow: scroll;
+  }
+  .box-details .box-title {
+    font-size: 23px;
+  }
+  .box-details .box-desc {
+    font-size: 12px;
+  }
+  .cardBox {
+    width: 200px;
+    height: 250px;
+  }
+
+  .flex-items figure {
+    display: none;
+  }
+
+  .flex-items aside {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project-section-header .title {
+    font-size: 25px;
+  }
+  .project-section-header .title span {
+    font-size: 25px;
+  }
+  .project-section-header p {
+    font-size: 12px;
+    max-width: 80%;
+    margin: auto;
+  }
+}
