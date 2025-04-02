@@ -8,9 +8,29 @@
     width: 350px;
   }
   .para-pic {
-    inset: -30% 0 0 0;
+    inset: -45% 0 0 0;
+  }
+  .about-me-section {
+    margin-top: -350px;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .about-me-section {
+    margin-top: -250px;
+  }
+  .para-1,
+  .para-2,
+  .para-3 {
+    font-size: 13px;
+    width: 90%;
+    padding: 10px;
+    height: fit-content;
+  }
+  .para-pic img {
+    width: 300px;
+  }
+  .para-pic {
+    inset: -30% 0 0 0;
+  }
 }
