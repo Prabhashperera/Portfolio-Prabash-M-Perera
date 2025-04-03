@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 480px) {
   .quote p {
-    font-size: 16px;
+    font-size: 13px;
     max-width: 80%;
     margin: 0 auto;
   }
@@ -76,9 +76,9 @@
     margin: auto;
   }
   .design-quote {
-    font-size: 14px;
+    font-size: 13px;
     max-width: 75%;
     margin: 0 auto;
-    margin-top: -100px;
+    margin-top: -50px;
   }
 }
