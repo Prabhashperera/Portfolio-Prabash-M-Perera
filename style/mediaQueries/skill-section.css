@@ -81,4 +81,10 @@
     margin: 0 auto;
     margin-top: -50px;
   }
+  .para-pic {
+    height: fit-content;
+  }
+  .skill-section-wrapper {
+    height: fit-content;
+  }
 }
