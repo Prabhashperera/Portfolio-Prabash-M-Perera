@@ -44,7 +44,7 @@
   }
   .quote {
     position: relative;
-    top: -34px !important;
+    top: -330px;
   }
 
   .skill-section-wrapper .card-grp {
@@ -88,6 +88,6 @@
   .skill-section-wrapper {
     height: fit-content;
     position: relative;
-    top: -35px !important;
+    top: -325px;
   }
 }
