@@ -10,9 +10,14 @@ body {
   color: white;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 html,
 body {
   width: 100%;
+  height: -webkit-fill-available;
 }
 
 /* Hero Section */
