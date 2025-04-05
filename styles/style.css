@@ -4,9 +4,61 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: black;
+  color: white;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* --------------------------------------------NAVBAR---------------------------------------------------------------------------- */
 
+.navigation-wrapper {
+  position: sticky;
+  top: 40px;
+  width: 100dvw;
+  height: 100%;
+}
+
+.navigation-wrapper header {
+  position: absolute;
+  color: black;
+  display: flex;
+  background-color: white;
+  width: 80%;
+  height: 7.5dvh;
+  inset: 0;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.navigation-profile-img {
+  margin: auto 0;
+  margin-left: 10px;
+  width: 3.1rem;
+  height: 2.6rem;
+  background: url("../Assets/my/1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 100%;
+}
+
+.navigation-list {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 4rem;
+  margin-right: 11rem;
+  list-style: none;
+}
+
+.navigation-list li a {
+  font-family: "Alatsi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  text-decoration: none;
+}
