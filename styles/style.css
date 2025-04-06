@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-font:   font-family: "Inknut Antiqua", serif;
+  --secondary-font:   font-family: "Koulen", sans-serif; 
+  --paragraph-font:   font-family: "Alef", sans-serif; 
+  --theme-blue: #5062ff;
+  
+}
+
 body {
   background-color: black;
   color: white;
@@ -126,7 +134,7 @@ body {
 .hero-section-wrapper {
   padding: 3rem;
   width: 100dvw;
-  height: 100dvh;
+  height: 90dvh;
   position: relative;
   display: flex;
   align-items: center;
@@ -140,6 +148,23 @@ body {
   text-align: center;
 }
 
+.hero-text-grp::after {
+  --2: red;
+  --1: blue;
+  --3: purple;
+  --4: blue;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+  content: "";
+  width: 100dvw;
+  height: 50%;
+  background-image: conic-gradient(var(--1), var(--2), var(--3), var(--4));
+  filter: blur(4.5rem);
+  opacity: 21%;
+}
+
 .hero-text-grp h1 {
   text-align: center;
   font-size: 7vw;
@@ -149,7 +174,7 @@ body {
 
 .hero-text-grp span {
   font-size: inherit;
-  color: #838fff;
+  color: #7784ff;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -181,8 +206,47 @@ span {
 
 .btn-grp-01 button {
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   width: 20rem;
-  height: 2rem;
-  margin: 5px;
+  height: 2.5rem;
+  margin-top: 15px;
+  font-weight: 700;
+  font-family: "Alef", sans-serif;
+}
+
+.btn-grp-01 button:first-child {
+  background-color: #5062ff;
+  color: white;
+}
+.btn-grp-01 button:last-child {
+  border: 3px solid #5062ff;
+  background-color: transparent;
+  color: white;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------HERO SECTION //TODO: Media Quey (mobile First)----------------------------------- */
+
+/* Tabs */
+@media (min-width: 480px) {
+  .hero-middle h3,
+  span {
+  margin-top: -40px;
+  font-size: 5.6vw;
+  }
+  .hero-middle p {
+  font-size: 1rem;
+  }
+}
+
+/* Laptops */
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 1025px) {
+
 }
