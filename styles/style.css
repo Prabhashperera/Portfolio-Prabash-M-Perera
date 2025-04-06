@@ -88,7 +88,7 @@ body {
   }
   .navigation-list {
     gap: 2.2rem;
-    right: 2.1rem;
+    right: 3.7rem;
   }
 }
 
@@ -98,8 +98,8 @@ body {
     font-size: 16px;
   }
   .navigation-list {
-    gap: 2.2rem;
-    right: 3.1rem;
+    gap: 3.2rem;
+    right: 5.5rem;
   }
   .navigation-profile-img {
     width: 2.5rem;
@@ -259,9 +259,53 @@ span {
 
 /* Laptops */
 @media (min-width: 768px) {
-
+  .hero-middle h1 {
+    font-size: 6.5vw;
+  }
+  .hero-middle h3,
+  span {
+  margin-top: -50px;
+  font-size: 5.3vw;
+  }
+  .hero-middle p {
+  font-size: 1.2rem;
+  }
+  .btn-grp-01 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-grp-01 button {
+    width: 30rem;
+    height: 3rem;
+    font-size: 0.9rem;
+  }
 }
 
 @media (min-width: 1025px) {
-
+  .hero-middle h1 {
+    font-size: 4.7vw;
+  }
+  .hero-middle h3,
+  span {
+  margin-top: -50px;
+  font-size: 2.4vw;
+  }
+  .hero-middle p {
+  font-size: 1rem;
+  }
+  .btn-grp-01 {
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+  }
+  .btn-grp-01 button {
+    width: 10rem;
+    height: 2.8rem;
+    font-size: 0.8rem;
+  }
+  .hero-text-grp::after {
+    opacity: 21%;
+  }
 }
