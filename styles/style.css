@@ -167,8 +167,22 @@ span {
 }
 
 .hero-middle p {
-  font-size: 3vw;
+  font-size: 0.8rem;
   font-family: "Alef", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* BUtton Grp */
+.btn-grp-01 {
+  position: relative;
+  top: 10px;
+}
+
+.btn-grp-01 button {
+  border: none;
+  border-radius: 20px;
+  width: 20rem;
+  height: 2rem;
+  margin: 5px;
 }
