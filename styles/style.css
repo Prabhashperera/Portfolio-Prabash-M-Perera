@@ -15,6 +15,7 @@
 body {
   background-color: black;
   color: white;
+  overflow-x: hidden;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -191,8 +192,8 @@ body {
 
 .hero-middle h3,
 span {
-  margin-top: -20px;
-  font-size: 5.6vw;
+  margin-top: -18px;
+  font-size: 5.8vw;
 }
 
 .hero-middle p {
@@ -218,6 +219,7 @@ span {
   margin-top: 15px;
   font-weight: 700;
   font-family: "Alef", sans-serif;
+  font-size: 0.6rem;
 }
 
 .btn-grp-01 button:first-child {
@@ -280,6 +282,9 @@ span {
     width: 30rem;
     height: 3rem;
     font-size: 0.9rem;
+  }
+  .hero-text-grp::after {
+    opacity: 27%;
   }
 }
 
