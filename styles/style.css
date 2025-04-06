@@ -328,6 +328,23 @@ span {
   height: 100dvh;
 }
 
+.about-me-section::after {
+  --2: red;
+  --1: blue;
+  --3: purple;
+  --4: blue;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  z-index: -1;
+  content: "";
+  width: 100dvw;
+  height: 50%;
+  background-image: conic-gradient(var(--1), var(--2), var(--3), var(--4));
+  filter: blur(4.5rem);
+  opacity: 31%;
+}
+
 .about-me-section .para-wrapper {
   text-align: center;
 }
@@ -416,5 +433,8 @@ span {
 }
 
 @media (min-width: 1025px) {
-
+  .para-wrapper p {
+    font-size: 1rem;
+    padding: 30px 105px;
+  }
 }
