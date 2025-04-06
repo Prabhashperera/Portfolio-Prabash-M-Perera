@@ -26,9 +26,8 @@ body {
 
 .navigation-wrapper {
   position: fixed;
-  top: -380px;
+  top: 45px;
   width: 100dvw;
-  height: 100%;
 }
 
 .navigation-wrapper header {
