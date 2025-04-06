@@ -220,6 +220,7 @@ span {
   font-weight: 700;
   font-family: "Alef", sans-serif;
   font-size: 0.6rem;
+  cursor: pointer;
 }
 
 .btn-grp-01 button:first-child {
@@ -313,4 +314,40 @@ span {
   .hero-text-grp::after {
     opacity: 21%;
   }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------ABOUT ME SECTION (mobile First)-------------------------------------------------- */
+
+.about-me-section {
+  height: 100vh;
+  height: 100dvh;
+}
+
+.about-me-section .para-wrapper {
+  text-align: center;
+}
+
+.para-wrapper h2 {
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.middle-color {
+  font-size: inherit;
+  color: #7784ff;
+}
+
+.para-wrapper p {
+  font-size: 0.8rem;
+  font-family: "Alef", sans-serif;
+  width: 80vw;
+  margin: auto;
+  padding: 10px 30px;
+  background-color: #3246fe;
+  color: white;
 }
