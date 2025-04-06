@@ -17,7 +17,7 @@ body {
 
 .navigation-wrapper {
   position: sticky;
-  top: 40px;
+  top: 45px;
   width: 100dvw;
   height: 100%;
 }
@@ -28,7 +28,7 @@ body {
   display: flex;
   background-color: white;
   width: 80%;
-  height: 7.5dvh;
+  height: 2.9rem;
   inset: 0;
   margin: auto;
   border-radius: 30px;
@@ -37,8 +37,8 @@ body {
 .navigation-profile-img {
   margin: auto 0;
   margin-left: 10px;
-  width: 2.6rem;
-  height: 2.6rem;
+  width: 2.3rem;
+  height: 2.3rem;
   background: url("../Assets/my/1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -49,16 +49,17 @@ body {
   width: fit-content;
   height: fit-content;
   position: absolute;
-  right: 10rem;
+  right: 3rem;
   bottom: 0;
   top: 0;
   margin: auto 0;
   display: flex;
-  gap: 4rem;
+  gap: 1.3rem;
   list-style: none;
 }
 
 .navigation-list li a {
+  font-size: 12px;
   font-family: "Alatsi", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -71,3 +72,47 @@ body {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* --------------------------------------------NAVBAR - MEIDA QUERY-------------------------------------------------------- */
+
+/* Tabs */
+@media (min-width: 480px) {
+  .navigation-list li a {
+    font-size: 14px;
+  }
+  .navigation-list {
+    gap: 2.2rem;
+    right: 2.1rem;
+  }
+}
+
+/* Laptops */
+@media (min-width: 768px) {
+  .navigation-list li a {
+    font-size: 16px;
+  }
+  .navigation-list {
+    gap: 2.2rem;
+    right: 3.1rem;
+  }
+  .navigation-profile-img {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .navigation-wrapper header {
+    width: 70%;
+    height: 3.3rem;
+  }
+  .navigation-wrapper {
+    top: 45px;
+  }
+  .navigation-list {
+    gap: 4.2rem;
+    right: 9.1rem;
+  }
+  .navigation-profile-img {
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+}
