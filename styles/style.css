@@ -442,7 +442,6 @@ p {
 }
 
 .quote {
-  position: relative;
   font-size: 14px;
   width: 80vw;
   text-align: center;
@@ -476,7 +475,7 @@ p {
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ---------------------------------------Skills SECTION (mobile First)----------------------------------------------------- */
-
+/* 
 .skill-section-wrapper {
   width: 100vw;
   width: 100dvw;
@@ -538,6 +537,85 @@ p {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
+} */
+
+/* Viewport-Safe Wrapper */
+.skill-section-wrapper {
+  width: 100vw;
+  min-height: 70vh;
+  padding-top: 3rem;
+  padding-bottom: env(
+    safe-area-inset-bottom,
+    2rem
+  ); /* Safe for iOS bottom bar */
+}
+
+/* Card Group Container */
+.card-grp {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+/* Individual Card Styling */
+.card-grp .card {
+  width: 85%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Nice touch 😉 */
+}
+
+/* Card Heading */
+.card-grp .card h4 {
+  font-family: "Koulen", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/* Card Paragraph Text */
+.card p {
+  font-size: 0.875rem; /* 14px = better on mobile */
+  line-height: 1.6;
+}
+
+/* Push Project Section Down - Made Responsive */
+.project-section-wrapper {
+  margin-top: 20vh;
+}
+
+/* Generic Margin Class - More Responsive */
+.m-400 {
+  margin-top: 15vh;
+}
+
+/* Stack Icon Section Wrapper */
+.stack-grp-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+/* Stack Icon Container */
+.stack-grp {
+  width: 85%;
+  gap: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Stack Icons */
+.stack-grp img {
+  background-color: white;
+  padding: 0.75rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -603,13 +681,13 @@ p {
     width: 70%;
   }
   .skill-section-wrapper {
-    margin-top: -160px;
+    margin-top: -60px;
   }
   .stack-grp-wrapper {
-    margin-top: -140px;
+    margin-top: -40px;
   }
   .m-400 {
-    margin-top: 0px;
+    margin-top: 100px;
   }
 }
 
