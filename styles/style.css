@@ -224,11 +224,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #5062ff;
+  background-color: #475aff;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #5062ff;
+  border: 3px solid #475aff;
   background-color: transparent;
   color: white;
 }
@@ -438,3 +438,44 @@ span {
     padding: 30px 105px;
   }
 }
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------Quote SECTION (mobile First)------------------------------ */
+p {
+  font-family: "Alef", sans-serif;
+  font-weight: 500;
+}
+
+.quote {
+  font-size: 14px;
+  width: 80vw;
+  text-align: center;
+  margin: auto;
+  margin-top: -100px;
+  margin-bottom: 60px;
+}
+
+/* Tabs */
+@media (min-width: 480px) {
+  .quote {
+    font-size: 15px;
+    margin-top: -150px;
+  }
+}
+
+/* other Tabs */
+@media (min-width: 768px) {
+  .quote {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-top: -180px;
+  }
+}
+
+@media (min-width: 1025px) {
+
+}
+
