@@ -526,7 +526,7 @@ p {
 }
 
 .stack-grp-wrapper {
-  margin-top: 350px;
+  margin-top: 370px;
   width: 100dvw;
   display: flex;
   justify-content: center;
@@ -541,7 +541,7 @@ p {
 }
 
 .stack-grp img {
-  background-color: aliceblue;
+  background-color: white;
   padding: 10px;
   border-radius: 10px;
 }
