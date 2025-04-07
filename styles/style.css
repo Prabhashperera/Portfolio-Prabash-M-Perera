@@ -4,14 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-font:   font-family: "Inknut Antiqua", serif;
-  --secondary-font:   font-family: "Koulen", sans-serif; 
-  --paragraph-font:   font-family: "Alef", sans-serif; 
-  --theme-blue: #5062ff;
-  
-}
-
 body {
   background-color: black;
   color: white;
@@ -243,11 +235,11 @@ span {
 @media (min-width: 480px) {
   .hero-middle h3,
   span {
-  margin-top: -40px;
-  font-size: 5.6vw;
+    margin-top: -40px;
+    font-size: 5.6vw;
   }
   .hero-middle p {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   .btn-grp-01 {
     width: 100vw;
@@ -267,11 +259,11 @@ span {
   }
   .hero-middle h3,
   span {
-  margin-top: -50px;
-  font-size: 5.3vw;
+    margin-top: -50px;
+    font-size: 5.3vw;
   }
   .hero-middle p {
-  font-size: 1.2rem;
+    font-size: 1.2rem;
   }
   .btn-grp-01 {
     width: 100vw;
@@ -295,11 +287,11 @@ span {
   }
   .hero-middle h3,
   span {
-  margin-top: -50px;
-  font-size: 2.4vw;
+    margin-top: -50px;
+    font-size: 2.4vw;
   }
   .hero-middle p {
-  font-size: 1rem;
+    font-size: 1rem;
   }
   .btn-grp-01 {
     flex-direction: row;
@@ -554,7 +546,6 @@ p {
   border-radius: 10px;
 }
 
-
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -626,4 +617,54 @@ p {
   .m-400 {
     margin-top: 0px;
   }
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------PROJECT SECTION (mobile First)---------------------------------------------------- */
+
+.project-section-header {
+  margin-bottom: 70px;
+}
+
+.project-section-header .title,
+.title span {
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: var(--secondary-font-size);
+  text-align: center;
+}
+
+.project-section-wrapper {
+  margin-top: 80px;
+}
+
+.title span {
+  color: var(--theme-blue);
+}
+
+.project-section-header .desc {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 14px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------------------ */
+/* ---------------------------------------PROJECT SECTION //TODO: Media Queries (mobile First)----------------------------- */
+
+/* Tabs */
+@media (min-width: 480px) {
+}
+
+/* other Tabs */
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1025px) {
 }
