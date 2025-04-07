@@ -316,8 +316,7 @@ span {
 
 .about-me-section {
   position: relative;
-  height: 100vh;
-  height: 100dvh;
+  min-height: 70dvh;
 }
 
 .about-me-section::after {
@@ -467,6 +466,8 @@ p {
   .quote {
     font-size: 16px;
     font-size: 1rem;
+    margin-top: 70px;
+    margin-bottom: -50px;
   }
 }
 
@@ -544,10 +545,7 @@ p {
   width: 100vw;
   min-height: 70vh;
   padding-top: 3rem;
-  padding-bottom: env(
-    safe-area-inset-bottom,
-    2rem
-  ); /* Safe for iOS bottom bar */
+  padding-bottom: env(safe-area-inset-bottom, 2rem);
 }
 
 /* Card Group Container */
@@ -681,13 +679,13 @@ p {
     width: 70%;
   }
   .skill-section-wrapper {
-    margin-top: -60px;
+    margin-top: 100px;
   }
   .stack-grp-wrapper {
-    margin-top: -40px;
+    margin-top: 100px;
   }
   .m-400 {
-    margin-top: 100px;
+    margin-top: 70px;
   }
 }
 
