@@ -593,7 +593,7 @@ p {
 /* Card Paragraph Text */
 .card p {
   font-size: 0.875rem; /* 14px = better on mobile */
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 /* Push Project Section Down - Made Responsive */
@@ -603,7 +603,7 @@ p {
 
 /* Generic Margin Class - More Responsive */
 .m-400 {
-  margin-top: 15vh;
+  margin-top: 9vh;
 }
 
 /* Stack Icon Section Wrapper */
@@ -611,7 +611,7 @@ p {
   width: 100vw;
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 3.7rem;
 }
 
 /* Stack Icon Container */
