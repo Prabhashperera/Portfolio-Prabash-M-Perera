@@ -336,6 +336,10 @@ span {
   opacity: 31%;
 }
 
+span {
+  font-size: 2rem;
+}
+
 .about-me-section .para-wrapper {
   text-align: center;
 }
@@ -401,6 +405,10 @@ span {
   .para-wrapper h2 {
     font-size: 3rem;
   }
+
+  .title span {
+    font-size: 3rem !important;
+  }
   .para-wrapper p {
     font-size: 0.9rem;
     padding: 15px 47px;
@@ -411,6 +419,9 @@ span {
 @media (min-width: 768px) {
   .para-wrapper h2 {
     font-size: 4.5rem;
+  }
+  .title span {
+    font-size: 4.5rem !important;
   }
   .para-wrapper p {
     font-size: 0.9rem;
@@ -428,6 +439,9 @@ span {
     font-size: 1rem;
     padding: 30px 105px;
   }
+  .title span {
+    font-size: 4.5rem !important;
+  }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -441,10 +455,11 @@ p {
 }
 
 .quote {
-  font-size: 14px;
-  width: 80vw;
+  font-size: 0.8rem;
+  width: 80%;
   text-align: center;
   margin: auto;
+  margin-top: 8vh;
 }
 
 /* Tabs */
