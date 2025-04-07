@@ -490,7 +490,7 @@ p {
   width: 100vw;
   width: 100dvw;
   height: 80vw;
-  height: 80dvw;
+  height: 50dvw;
 }
 
 .card-grp {
@@ -530,7 +530,28 @@ p {
 }
 
 .m-400 {
-  margin-top: 420px;
+  margin-top: 570px;
+}
+
+.stack-grp-wrapper {
+  margin-top: 350px;
+  width: 100dvw;
+  display: flex;
+  justify-content: center;
+}
+
+.stack-grp {
+  width: 80%;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stack-grp img {
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 
@@ -542,14 +563,67 @@ p {
 
 /* Tabs */
 @media (min-width: 480px) {
-
+  .card-grp .card {
+    width: 80%;
+    padding: 40px 30px;
+  }
+  .stack-grp-wrapper {
+    margin-top: 150px;
+  }
+  .m-400 {
+    margin-top: 300px;
+  }
 }
 
 /* other Tabs */
 @media (min-width: 768px) {
-
+  .card-grp {
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+  }
+  .card-grp .card {
+    width: fit-content;
+  }
+  .stack-grp img {
+    width: 60px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .stack-grp-wrapper {
+    margin-top: 10px;
+  }
+  .m-400 {
+    margin-top: 200px;
+  }
 }
 
 @media (min-width: 1025px) {
-
+  .stack-grp img {
+    width: 60px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .m-400 {
+    margin-top: 120px;
+  }
+  .card-grp .card {
+    padding: 70px 50px;
+  }
+  .card-grp {
+    width: 70%;
+  }
+  .skill-section-wrapper {
+    margin-top: -160px;
+  }
+  .stack-grp-wrapper {
+    margin-top: -140px;
+  }
+  .m-400 {
+    margin-top: 0px;
+  }
 }
