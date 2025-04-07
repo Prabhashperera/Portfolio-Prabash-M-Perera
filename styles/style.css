@@ -478,11 +478,10 @@ p {
 /* ---------------------------------------Skills SECTION (mobile First)----------------------------------------------------- */
 
 .skill-section-wrapper {
-  position: relative;
   width: 100vw;
   width: 100dvw;
-  height: 80vw;
-  height: 50dvw;
+  height: 70vh;
+  height: 70dvh;
 }
 
 .card-grp {
@@ -513,20 +512,15 @@ p {
   font-size: 14px;
 }
 
-.stack-grp-wrapper {
-  margin-top: 300px;
-}
-
 .project-section-wrapper {
   margin-top: 500px;
 }
 
 .m-400 {
-  margin-top: 570px;
+  margin-top: 270px;
 }
 
 .stack-grp-wrapper {
-  margin-top: 370px;
   width: 100dvw;
   display: flex;
   justify-content: center;
