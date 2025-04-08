@@ -216,11 +216,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #0033ff;
+  background-color: #0084ff;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #0033ff;
+  border: 3px solid #0084ff;
   background-color: transparent;
   color: white;
 }
