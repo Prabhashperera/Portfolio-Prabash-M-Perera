@@ -52,7 +52,7 @@
 }
 
 .blog-card p:last-child {
-  color: #e81cff;
+  color: var(--theme-blue);
   font-weight: 600;
 }
 
