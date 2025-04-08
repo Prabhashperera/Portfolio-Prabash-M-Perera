@@ -320,10 +320,10 @@ span {
 }
 
 .about-me-section::after {
-  --2: red;
-  --1: blue;
-  --3: purple;
-  --4: blue;
+  --2: #0084ff;
+  --1: rgb(255, 0, 251);
+  --3: rgb(204, 0, 255);
+  --4: rgb(255, 53, 225);
   position: absolute;
   inset: 0;
   margin: auto;
@@ -333,7 +333,7 @@ span {
   height: 50%;
   background-image: conic-gradient(var(--1), var(--2), var(--3), var(--4));
   filter: blur(4.5rem);
-  opacity: 31%;
+  opacity: 51%;
 }
 
 .about-me {
