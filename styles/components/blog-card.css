@@ -43,10 +43,12 @@
   font-size: 20px;
   text-transform: capitalize;
   font-weight: 700;
+  width: 93%;
 }
 
 .blog-card p:not(.heading) {
   font-size: 14px;
+  width: 90%;
 }
 
 .blog-card p:last-child {

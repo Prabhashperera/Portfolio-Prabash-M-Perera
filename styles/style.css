@@ -939,7 +939,8 @@ p {
 
 .blog-section-wrapper {
   width: 100vw;
-  min-height: 30%;
+  min-height: 50vh;
+  margin-bottom: 30%;
 }
 
 .blog-cards-wrapper {
