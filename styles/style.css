@@ -744,6 +744,8 @@ p {
   flex-direction: column;
   align-items: center;
   background-color: #000534;
+  border-radius: 30px;
+  margin: 20px;
   margin-bottom: 100px;
 }
 
@@ -788,10 +790,10 @@ p {
 
 .github-button {
   width: 250px;
-  background-color: rgb(15, 0, 151);
+  background-color: black;
   color: white;
   padding: 17px;
-  border: none;
+  border: 2px solid #7784ff;
   border-radius: 15px;
 }
 
