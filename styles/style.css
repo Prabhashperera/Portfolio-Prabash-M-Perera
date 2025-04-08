@@ -171,7 +171,7 @@ body {
 
 .hero-text-grp span {
   font-size: inherit;
-  color: #7784ff;
+  color: #00b3ff;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -216,11 +216,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #475aff;
+  background-color: #00b3ff;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #475aff;
+  border: 3px solid #00b3ff;
   background-color: transparent;
   color: white;
 }
