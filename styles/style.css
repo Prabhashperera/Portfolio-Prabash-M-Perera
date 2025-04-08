@@ -206,7 +206,7 @@ span {
 .btn-grp-01 button {
   border: none;
   border-radius: 10px;
-  width: 20rem;
+  width: 85%;
   height: 2.5rem;
   margin-top: 15px;
   font-weight: 700;
@@ -216,11 +216,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #00b3ff;
+  background-color: #0033ff;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #00b3ff;
+  border: 3px solid #0033ff;
   background-color: transparent;
   color: white;
 }
