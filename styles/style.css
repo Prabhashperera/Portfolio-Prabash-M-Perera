@@ -128,7 +128,7 @@ body {
   width: 100dvw;
   width: 100vw;
   height: 90dvh;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -138,6 +138,7 @@ body {
 }
 
 .hero-middle {
+  margin-top: 2rem;
   display: flex;
   width: 100vw;
   width: 100dvw;
@@ -171,7 +172,7 @@ body {
 
 .hero-text-grp span {
   font-size: inherit;
-  color: #00b3ff;
+  color: #9ef01a;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -216,11 +217,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #0084ff;
+  background-color: #38b000;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #0084ff;
+  border: 3px solid #38b000;
   background-color: transparent;
   color: white;
 }
@@ -283,12 +284,12 @@ span {
 
 @media (min-width: 1025px) {
   .hero-middle h1 {
-    font-size: 4.7vw;
+    font-size: 4.4vw;
   }
   .hero-middle h3,
   .about-me {
-    margin-top: -50px;
-    font-size: 4.4vw;
+    margin-top: -3%;
+    font-size: 3.5vw;
   }
   .hero-middle p {
     font-size: 1rem;
@@ -304,7 +305,7 @@ span {
     font-size: 0.8rem;
   }
   .hero-text-grp::after {
-    opacity: 21%;
+    opacity: 18%;
   }
 }
 
@@ -333,7 +334,7 @@ span {
   height: 50%;
   background-image: conic-gradient(var(--1), var(--2), var(--3), var(--4));
   filter: blur(4.5rem);
-  opacity: 51%;
+  opacity: 21%;
 }
 
 .about-me {
