@@ -172,7 +172,12 @@ body {
 
 .hero-text-grp span {
   font-size: inherit;
-  color: #70e000;
+  background: linear-gradient(-70deg, #e81cff 20%, #40c9ff 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Optional for other browsers */
+  background-clip: text;
+  color: transparent;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -217,13 +222,39 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #70e000;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
   color: white;
 }
 .btn-grp-01 button:last-child {
   border: 3px solid #70e000;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
   background-color: transparent;
   color: white;
+}
+
+.btn-grp-01 button:last-child {
+  padding: 10px 20px;
+  background: linear-gradient(-45deg, #e81cff 0%, #40c9ff 100%);
+  border: none;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.btn-grp-01 button:last-child::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  bottom: 2px;
+  left: 2px;
+  right: 2px;
+  background: #111; /* or whatever inner background you want */
+  border-radius: 8px;
+  z-index: -1;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -363,12 +394,14 @@ span {
   width: 80vw;
   margin: 15px auto;
   padding: 10px 30px;
-  background-color: black;
+  background-color: #0062ff;
+  background: linear-gradient(-70deg, #3c87ff 0%, #0015ff 100%);
   color: white;
   cursor: pointer;
   transition: all 0.5s;
   z-index: 9;
   border-radius: 10px;
+  z-index: 1;
 }
 
 .para-wrapper p:hover {
@@ -401,7 +434,11 @@ span {
 }
 .about-me-title .about-me-span {
   font-size: inherit;
-  color: var(--theme-blue);
+  background: var(--theme-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Optional for other browsers */
+  background-clip: text;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------ */

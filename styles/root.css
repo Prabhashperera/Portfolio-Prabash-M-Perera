@@ -2,6 +2,6 @@
   --primary-font: "Inknut Antiqua", serif;
   --secondary-font: "Koulen", sans-serif;
   --paragraph-font: "Alef", sans-serif;
-  --theme-blue: #70e000;
+  --theme-blue: linear-gradient(-70deg, #e81cff 20%, #40c9ff 80%);
   --secondary-font-size: 1.8rem;
 }
