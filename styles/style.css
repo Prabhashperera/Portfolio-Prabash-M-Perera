@@ -627,9 +627,26 @@ p {
   align-items: center;
 }
 
+.card-grp .card {
+  position: relative; /* This is key! */
+  overflow: hidden; /* Optional: hides overflow if needed */
+}
+
+.card-grp .card::after {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  right: -4px;
+  bottom: -4px;
+  background-color: #e81cff;
+  border-radius: 18px; /* Slightly more than the card for that border roundness */
+  z-index: -1;
+}
+
 /* Individual Card Styling */
 .card-grp .card {
-  width: 85%;
+  width: 75%;
   text-align: center;
   background-color: white;
   color: black;
@@ -642,7 +659,7 @@ p {
 .card-grp .card h4 {
   font-family: "Koulen", sans-serif;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 /* Card Paragraph Text */
@@ -730,6 +747,9 @@ p {
   .m-400 {
     margin-top: -30%;
   }
+  .card-grp .card h4 {
+    font-size: 1.4rem;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -756,6 +776,9 @@ p {
   }
   .m-400 {
     margin-top: 70px;
+  }
+  .card-grp .card h4 {
+    font-size: 1.5rem;
   }
 }
 

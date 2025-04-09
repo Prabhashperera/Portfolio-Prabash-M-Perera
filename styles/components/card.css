@@ -73,8 +73,8 @@
   width: 40%;
   height: 150%;
   background: #40e0d0;
-  background: -webkit-linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
-  background: linear-gradient(to right, #ff0080, #ff8c00, #40e0d0);
+  background: -webkit-linear-gradient(to right, #ff0080, #e81cff, #40e0d0);
+  background: linear-gradient(to right, #ff0080, #40c9ff, #40e0d0);
   transform-origin: center;
   animation: glowing_401 5s linear infinite;
 }
