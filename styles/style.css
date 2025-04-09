@@ -172,7 +172,7 @@ body {
 
 .hero-text-grp span {
   font-size: inherit;
-  color: #9ef01a;
+  color: #70e000;
   font-family: "Koulen", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -217,11 +217,11 @@ span {
 }
 
 .btn-grp-01 button:first-child {
-  background-color: #38b000;
+  background-color: #70e000;
   color: white;
 }
 .btn-grp-01 button:last-child {
-  border: 3px solid #38b000;
+  border: 3px solid #70e000;
   background-color: transparent;
   color: white;
 }
@@ -363,7 +363,7 @@ span {
   width: 80vw;
   margin: 15px auto;
   padding: 10px 30px;
-  background-color: #5603ad;
+  background-color: black;
   color: white;
   cursor: pointer;
   transition: all 0.5s;
