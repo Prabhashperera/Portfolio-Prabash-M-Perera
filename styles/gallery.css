@@ -23,3 +23,63 @@
 .gallery-header-wrapper {
   margin-bottom: 20%;
 }
+
+.social-icons-wrapper {
+  margin-top: -1.6rem;
+  margin-bottom: 5rem;
+}
+
+.social-icons {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.social-icons img {
+  background-color: white;
+  padding: 0.6rem;
+  width: 17%;
+  border-radius: 10px;
+}
+
+/* MEDIA QUERIES */ /* MEDIA QUERIES */ /* MEDIA QUERIES */ /* MEDIA QUERIES */ /* MEDIA QUERIES */ /* MEDIA QUERIES */
+
+/* Tabs */
+@media (min-width: 480px) {
+}
+
+/* other Tabs */
+@media (min-width: 768px) {
+  .gallery-title {
+    margin-top: 8%;
+    font-size: 2.6rem;
+  }
+  .social-icons img {
+    background-color: white;
+    padding: 0.6rem;
+    width: 8%;
+    border-radius: 10px;
+  }
+  .social-icons-wrapper {
+    margin-top: -9rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .gallery-title {
+    margin-top: 8%;
+    font-size: 2.9rem;
+  }
+  .social-icons img {
+    background-color: white;
+    padding: 0.6rem;
+    width: 7%;
+    border-radius: 10px;
+  }
+  .social-icons-wrapper {
+    margin-top: -10rem;
+    margin-bottom: 5rem;
+  }
+}

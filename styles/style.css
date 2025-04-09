@@ -1076,6 +1076,10 @@ p {
   .blog-card p:not(.heading) {
     font-size: 1.3rem;
   }
+  .blog-title {
+    margin-top: 8%;
+    font-size: 2.6rem !important;
+  }
 }
 
 @media (min-width: 1025px) {
