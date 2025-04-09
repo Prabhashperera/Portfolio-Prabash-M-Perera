@@ -1,0 +1,25 @@
+.gallery-title {
+  text-align: center;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  font-size: 1.7rem;
+}
+
+.gallery-title .gallery-span {
+  font-size: inherit;
+  background: var(--theme-blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gallery-header-wrapper .desc {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  font-size: 0.9rem;
+}
+
+.gallery-header-wrapper {
+  margin-bottom: 20%;
+}
