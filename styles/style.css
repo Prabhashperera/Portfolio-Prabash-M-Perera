@@ -636,20 +636,31 @@ p {
   border-radius: 20px;
   padding: 1.5rem 2rem;
   background: white;
-  z-index: 5;
 }
 
-.card-grp .card::before {
+.card::after,
+.card::before {
   content: "";
   position: absolute;
-  inset: 0;
-  padding: 3px; /* border thickness */
+  background: linear-gradient(-45deg, #e81cff, #40c9ff);
+
+  /* background-image: conic-gradient(from var(--angle), 50% , rgb(32, 81, 255)); */
+  width: 100%;
+  height: 100%;
+  /* inset: 0;
+  margin: auto; */
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  padding: 3px;
+  z-index: -1;
   border-radius: 20px;
-  background: conic-gradient(#e81cff, #00b7ff, red, blue, #e81cff);
-  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
-  -webkit-mask-composite: xor;
-  mask-composite: exclude;
-  z-index: 2;
+  animation: 3s spin linear infinite;
+}
+
+.card::before {
+  filter: blur(1.5rem);
+  opacity: 50%;
 }
 
 /* Card Heading */
