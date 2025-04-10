@@ -627,32 +627,29 @@ p {
   align-items: center;
 }
 
-.card-grp .card {
-  position: relative; /* This is key! */
-  overflow: hidden; /* Optional: hides overflow if needed */
-}
-
-.card-grp .card::after {
-  content: "";
-  position: absolute;
-  top: -4px;
-  left: -4px;
-  right: -4px;
-  bottom: -4px;
-  background-color: #e81cff;
-  border-radius: 18px; /* Slightly more than the card for that border roundness */
-  z-index: -1;
-}
-
 /* Individual Card Styling */
 .card-grp .card {
+  position: relative;
   width: 75%;
   text-align: center;
-  background-color: white;
   color: black;
   border-radius: 20px;
   padding: 1.5rem 2rem;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Nice touch 😉 */
+  background: white;
+  z-index: 5;
+}
+
+.card-grp .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 3px; /* border thickness */
+  border-radius: 20px;
+  background: conic-gradient(#e81cff, #00b7ff, red, blue, #e81cff);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  z-index: 2;
 }
 
 /* Card Heading */
