@@ -1048,6 +1048,16 @@ p {
   gap: 7vh;
 }
 
+.see-more-button-wrapper {
+  position: relative;
+  top: -2rem;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -1065,6 +1075,18 @@ p {
 
   .blog-card p:last-child {
     margin-bottom: 10%;
+  }
+  .see-more-button-wrapper {
+    position: relative;
+    top: -2rem;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+  .more-button {
+    width: 31rem !important;
   }
 }
 

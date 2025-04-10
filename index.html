@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/root.css">
     <link rel="stylesheet" href="./styles/components/blog-card.css">
     <link rel="stylesheet" href="./styles/gallery.css">
+    <link rel="stylesheet" href="./styles/components/button.css">
     <!-- <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./style/mediaQueries/project-section.css">
     <link rel="stylesheet" href="./style/mediaQueries/about-me-section.css">
@@ -416,29 +417,21 @@
           <!-- Social Section End  -->
     
           <!-- Gallery Section start -->
-          <section>
-            <div>
-              <img src="./Assets/my/1.jpg" alt="my-image" width="200" />
-              <img src="./Assets/my/2.jpg" alt="my-image" width="200" />
-              <img src="./Assets/my/3.jpg" alt="my-image" width="200" />
-              <img src="./Assets/my/4.jpg" alt="my-image" width="200" />
-              <img src="./Assets/my/1.jpg" alt="my-image" width="200" />
-            </div>
-            <div>
-              <button>See more about myself</button>
-              <img
-                src="./Assets/icons8-back-arrow-100.png"
-                alt="Arrow-icon"
-                width="30"
-              />
-            </div>
+          <section class="see-more-button-wrapper">
+            <!-- From Uiverse.io by reshades --> 
+            <button class="more-button">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75"></path>
+              </svg>
+              <div class="text">
+                See More About My Self
+              </div>
+            </button>
           </section>
     <!-- Gallery Section End -->
 
-    Contact Me Section
-
-    <section>
-      <h1>Let's work with <span>Me !!</span></h1>
+    <section class="contact-section-wrapper">
+      <h1 class="contact-title">Let's work with <span class="contact-span">Me !!</span></h1>
       <main>
         <form>
           <input type="text" placeholder="Wanna Work with me  ?" />
