@@ -47,6 +47,16 @@
 
 /* Tabs */
 @media (min-width: 480px) {
+  .social-icons img {
+    background-color: white;
+    padding: 0.6rem;
+    width: 3.5rem;
+    border-radius: 10px;
+  }
+  .social-icons-wrapper {
+    margin-top: -5rem;
+    margin-bottom: 7rem;
+  }
 }
 
 /* other Tabs */
@@ -75,11 +85,14 @@
   .social-icons img {
     background-color: white;
     padding: 0.6rem;
-    width: 7%;
+    width: 4rem;
     border-radius: 10px;
   }
   .social-icons-wrapper {
-    margin-top: -10rem;
-    margin-bottom: 5rem;
+    margin-top: -15rem;
+    margin-bottom: 7rem;
+  }
+  .blog-section-wrapper {
+    margin-bottom: 10rem;
   }
 }

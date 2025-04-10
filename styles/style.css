@@ -1093,4 +1093,10 @@ p {
     margin-top: 8%;
     font-size: 2.9rem !important;
   }
+  .blog-cards-wrapper {
+    margin-top: 5%;
+    align-items: center;
+    display: flex;
+    gap: 7vh;
+  }
 }
