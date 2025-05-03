@@ -5,13 +5,13 @@
   perspective: 1000px;
 }
 
-.assignment-card .card {
+.assignment-card {
   padding-top: 50px;
   /* border-radius: 10px; */
   border: 3px solid rgb(255, 255, 255);
   transform-style: preserve-3d;
   background: linear-gradient(135deg, #0000 18.75%, #f3f3f3 0 31.25%, #0000 0),
-    repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #ffffff 0 18.75%);
+    repeating-linear-gradient(45deg, #f3f3f3 -6.25% 6.25%, #ffffff 0 18.75%) !important;
   background-size: 60px 60px;
   background-position: 0 0, 0 0;
   background-color: #f0f0f0;
@@ -20,13 +20,14 @@
   transition: all 0.5s ease-in-out;
 }
 
-.assignment-card .card:hover {
+.assignment-card:hover {
   background-position: -100px 100px, -100px 100px;
   transform: rotate3d(0.5, 1, 0, 30deg);
 }
 
 .content-box {
-  background: rgba(4, 193, 250, 0.732);
+  background: rgba(45, 4, 250, 0.732);
+  background: linear-gradient(to right, #404aff, #ab40e0);
   /* border-radius: 10px 100px 10px 10px; */
   transition: all 0.5s ease-in-out;
   padding: 60px 25px 25px 25px;
@@ -67,6 +68,7 @@
   font-size: 9px;
   text-transform: uppercase;
   color: rgb(7, 185, 255);
+  color: black;
   /* border-radius: 5px; */
   background: white;
   padding: 0.5rem 0.7rem;
@@ -107,4 +109,12 @@
   font-size: 20px;
   font-weight: 900;
   color: rgb(4, 193, 250);
+}
+
+.assignments-box-section {
+  margin-top: 50px;
+  margin-bottom: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
