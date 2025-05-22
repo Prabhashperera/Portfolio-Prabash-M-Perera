@@ -112,7 +112,8 @@
 }
 
 .assignments-box-section {
-  margin-top: 50px;
+  gap: 15px;
+  margin-top: 90px;
   margin-bottom: 150px;
   display: flex;
   flex-wrap: wrap;
