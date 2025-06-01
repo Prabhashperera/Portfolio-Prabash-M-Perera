@@ -6,6 +6,8 @@
 
 body {
   background-color: black;
+  background: url("../Assets/videos/Sparkling\ Particle.mp4");
+  background-size: cover;
   color: white;
   overflow-x: hidden;
 }
