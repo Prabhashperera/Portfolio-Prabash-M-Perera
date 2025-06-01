@@ -6,11 +6,21 @@
 
 body {
   background-color: black;
-  background: url("../Assets/videos/Sparkling\ Particle.mp4");
   background-size: cover;
   color: white;
   overflow-x: hidden;
 }
+
+.video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -1000000;
+      opacity: 10%; /* Push the video behind everything else */
+    }
 
 html {
   scroll-behavior: smooth; /* Magic sauce for smooth scroll */
